@@ -5,38 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power_App</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <nav class="nav">
-            <div class="logo">
-                <a href="/">
-                    <img src="images/logo.svg" alt="">
-                </a>
-            </div>
-            <ul class="nav__ul">
-                <li class="nav__li"><a class="nav__a" href="/">Features</a>
-                <li class="nav__li"><a class="nav__a" href="/">Partners</a>
-                <li class="nav__li"><a class="nav__a" href="/">Stories</a>
-            </ul>
-            <div class="nav__btn"><a class="btn" href="/">Download for free</a></div>
-        </nav>
-        <main class="main">
-            <h1 class="main__title">The Power of Simplicity</h1>
-            <p class="main__desc">Instead of spending time searching for the right app, our AI will bring the right app to you.</p>
-            <a class="main__btn" href="/">Learn</a>
-            <div class="pagination">
-                <img src="images/ellipse_empty.svg" alt="ellipse_empty">
-                <img src="images/ellipse_empty.svg" alt="ellipse_empty">
-                <img src="images/ellipse_active.svg" alt="ellipse_active">
-                <img src="images/ellipse_empty.svg" alt="ellipse_empty">
-                <img src="images/ellipse_empty.svg" alt="ellipse_empty">
-        </main>
+    <div class="wrapper">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+                <input id="menu-checkbox" type="checkbox">
+                <ul class="nav__ul">
+                    <li class="nav__li"><a class="nav__a" href="/">Features</a>
+                    <li class="nav__li"><a class="nav__a" href="/">Partners</a>
+                    <li class="nav__li"><a class="nav__a" href="/">Stories</a>
+                </ul>
+                <div class="nav__btn">
+                    <a class="btn" href="/">
+                        <span class="btn__text">Download for free</span>
+                        <span class="material-icons">file_download</span>
+                    </a>
+                </div>
+                <label class="menu-burger" for="menu-checkbox">
+                    <span class="material-icons icon-menu">menu</span>
+                </label>
+
+            </nav>
+            <main class="main">
+                <h1 class="main__title">The Power of Simplicity</h1>
+                <p class="main__desc">Instead of spending time searching for the right app, our AI will bring the right
+                    app
+                    to you.</p>
+                <a class="main__btn" href="/">Learn</a>
+                <div class="pagination">
+                    <img src="images/ellipse_empty.svg" alt="ellipse_empty">
+                    <img src="images/ellipse_empty.svg" alt="ellipse_empty">
+                    <img src="images/ellipse_active.svg" alt="ellipse_active">
+                    <img src="images/ellipse_empty.svg" alt="ellipse_empty">
+                    <img src="images/ellipse_empty.svg" alt="ellipse_empty">
+            </main>
+        </div>
+
     </div>
+
 
     </div>
 </body>
